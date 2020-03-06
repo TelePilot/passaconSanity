@@ -1,12 +1,17 @@
 export default {
-    title: "Kontakt",
-    name: "kontakt",
+    title: "ErfarenhetHeader",
+    name: "erfarenhetHeader",
     type: "document",
     fields: [
-      {
+    {
         title: "Titel",
         name: "titel",
         type: "string",
+        },
+      {
+        title: "thumbnail",
+        name: "thumbnail",
+        type: "image",
       },
       {
         name: 'beskrivning',
@@ -17,16 +22,7 @@ export default {
             type: 'block'
           }
         ]
-      },
-      {
-        title: "Email",
-        name: "email",
-        type: "string"
-      },
-      {title: "Telefon",
-      name: "telefon",
-      type: "string"
-    }
+      }
     ]
   }
   

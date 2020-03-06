@@ -1,6 +1,6 @@
 export default {
-    title: "Artikel eller Tjänst",
-    name: "artikel",
+    title: "Erfarenhet",
+    name: "erfarenhet",
     type: "document",
     fields: [
     {
@@ -12,11 +12,6 @@ export default {
         title: "thumbnail",
         name: "thumbnail",
         type: "image",
-      },
-      {
-        title: "focused thumbnail",
-        name: "focusedThumbnail",
-        type: "image"
       },
       {
         name: 'beskrivning',
@@ -32,21 +27,6 @@ export default {
         title: "Datum",
         name: "datum",
         type: "date"
-      },
-      {
-        title: "Tjänster?",
-        name: "tjanster",
-        type: "boolean"
-      },
-      {
-        title: "Slider",
-        name: "slider",
-        type: "boolean"
-      },
-      {
-        title: "Nyhet?",
-        name: "nyhet",
-        type: "boolean"
       }
     ]
   }

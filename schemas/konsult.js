@@ -24,13 +24,20 @@ export default {
         ]
       },
       {
-        title: "Uppdrag",
-        name: "uppdrag",
+        title: "Roller",
+        name: "roller",
         type: "array",
-        of: [{type: 'reference',
-        to: [
-            {type: 'uppdrag'}
-        ]}]
+        of: [{type: 'string' }]
+      },
+      {
+        title: "Telefon",
+        name: "telefon",
+        type: "string"
+      },
+      {
+        title: "Email",
+        name: "email",
+        type: "string"
       }
     ]
   }

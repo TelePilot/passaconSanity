@@ -1,12 +1,17 @@
 export default {
-    title: "Kontakt",
-    name: "kontakt",
+    title: "Roller",
+    name: "roller",
     type: "document",
     fields: [
-      {
+    {
         title: "Titel",
         name: "titel",
         type: "string",
+        },
+      {
+        title: "thumbnail",
+        name: "thumbnail",
+        type: "image",
       },
       {
         name: 'beskrivning',
@@ -19,14 +24,11 @@ export default {
         ]
       },
       {
-        title: "Email",
-        name: "email",
-        type: "string"
-      },
-      {title: "Telefon",
-      name: "telefon",
-      type: "string"
-    }
+        title: "Roller",
+        name: "roller",
+        type: "array",
+        of: [{type: 'rollItem'}]
+      }
     ]
   }
   

@@ -18,6 +18,21 @@ export default {
           }
         ]
       },
+      {
+        title: "Andra Titel",
+        name: "andraTitel",
+        type: "string",
+      },
+      {
+        name: 'beskrivning2',
+        type: 'array',
+        title: 'Beskrivning2',
+        of: [
+          {
+            type: 'block'
+          }
+        ]
+      },
       {title: "Bild",
       name: "bild",
       type: "image"

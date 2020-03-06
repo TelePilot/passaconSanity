@@ -11,6 +11,10 @@ import konsult from './konsult.js'
 import kontakt from './kontakt.js'
 import uppdrag from './uppdrag.js'
 import omOss from './omOss'
+import rollItem from './rollItem'
+import roller from './roller'
+import erfarenhet from './erfarenhet.js'
+import erfarenhetHeader from './erfarenhetHeader.js'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -24,6 +28,10 @@ export default createSchema({
    konsult,
    kontakt,
    uppdrag,
-   omOss
+   omOss,
+   rollItem,
+   roller,
+   erfarenhet,
+   erfarenhetHeader
   ])
 })
